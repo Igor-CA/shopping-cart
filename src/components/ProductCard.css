@@ -1,0 +1,32 @@
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px;
+    gap: 15px;
+}
+.product-card{
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.422);
+}
+.product-card__image-container{
+    position: relative;
+    padding-top: 120%;
+}
+.product-card__image{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    translate: -50%;
+    height: 100%;
+
+}
+.product-card__name{
+    margin-top: 10px;
+}
+.product-card__price{
+    margin-top: 30px;
+}
