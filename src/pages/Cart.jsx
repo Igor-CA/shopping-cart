@@ -1,5 +1,20 @@
-export default function Cart(){
+import CartProduct from "../components/CartProduct"
+export default function Cart({cart, editQuantity}){
     return(
-        <h1>Cart</h1>
+        <div>
+            <h1>Cart</h1>
+            {cart.map(product => {
+                return(
+                    <CartProduct
+                        key={product.name} 
+                        name={product.name}
+                        image={product.image} 
+                        price={product.price}
+                        quantity={product.quantity}
+                        editQuantity={editQuantity}
+                    ></CartProduct>
+                )
+            })}
+        </div>
     )
 }

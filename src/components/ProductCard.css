@@ -22,11 +22,21 @@
     left: 50%;
     translate: -50%;
     height: 100%;
-
 }
 .product-card__name{
     margin-top: 10px;
 }
 .product-card__price{
     margin-top: 30px;
+}
+.product-card__buy{
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #028a02;
+    color: white;
+}
+.product-card__buy:active{
+    background-color: #028a02e3;
 }

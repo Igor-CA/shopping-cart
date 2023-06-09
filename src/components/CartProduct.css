@@ -1,0 +1,16 @@
+.cart-product{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.cart-product__image-container{
+    width: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+/* .cart-product__image{
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+} */
