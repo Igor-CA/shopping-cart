@@ -1,16 +1,34 @@
+.cart-page{
+    min-height: calc(100vh - 49px);
+    background-image: url("../images/stoneBrick_pattern.png");
+    background-size: 100px;
+    padding: 10px;
+}
 .cart-product{
     display: flex;
     gap: 10px;
-    margin: 10px;
     background-color: white;
+    border: 2px solid black;
+    margin: 20px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
 }
 .cart-product__image-container{
-    width: 50px;
-    border: 1px solid black;
-    position: relative;
+    max-width: 100px;
+    aspect-ratio: 1/1;
 }
-/* .cart-product__image{
+.cart-product__image{
+    display: block;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    position: absolute;
-    top: 0;
-} */
+    padding: 10px;
+}
+.cart-product__products-info{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}

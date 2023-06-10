@@ -1,6 +1,5 @@
 .navbar{
     background-color: black;
-    margin-bottom: 15px;
 }
 .navbar__list{
     display: flex;
@@ -11,6 +10,8 @@
     padding: 15px;
 }
 .navbar__link{
+    position: relative;
+    text-align: center;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -19,4 +20,19 @@
 .navbar__link:active{
     transition: 100ms;
     background-color: #ffffff37;
+}
+.navbar__number-container{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    display: inline-block;
+    min-width: 18px;
+    background-color: green;
+    border-radius: 100px;
+    padding: 5px;
+    translate: 0% -50%;
+}
+.navbar__cart-number{
+    display: block;
+    min-width: 18px;
 }

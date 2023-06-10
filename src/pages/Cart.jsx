@@ -1,8 +1,7 @@
 import CartProduct from "../components/CartProduct"
 export default function Cart({cart, editQuantity}){
     return(
-        <div>
-            <h1>Cart</h1>
+        <div className="cart-page">
             {cart.map(product => {
                 return(
                     <CartProduct
