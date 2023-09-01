@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.0fef7625.css",
+    "main.js": "/shopping-cart/static/js/main.c3da7e72.js",
+    "static/media/minecraft-blocks-wallpapers.jpg": "/shopping-cart/static/media/minecraft-blocks-wallpapers.e5d62688a0c3f8b11ad8.jpg",
+    "static/media/stoneBrick_pattern.png": "/shopping-cart/static/media/stoneBrick_pattern.5af50988717e3c0c6d05.png",
+    "static/media/Gold_Ore_JE7_BE4.png": "/shopping-cart/static/media/Gold_Ore_JE7_BE4.45f4fad9bf9a8e4ebe5e.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.0fef7625.css.map": "/shopping-cart/static/css/main.0fef7625.css.map",
+    "main.c3da7e72.js.map": "/shopping-cart/static/js/main.c3da7e72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fef7625.css",
+    "static/js/main.c3da7e72.js"
+  ]
+}
