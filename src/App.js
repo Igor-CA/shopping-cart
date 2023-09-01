@@ -7,9 +7,7 @@ import NavBar from "./components/NavBar";
 import { useState } from "react";
 
 function App() {
-  const [productsCart, setProductsCart] = useState([
-    
-])
+  const [productsCart, setProductsCart] = useState([])
   
   const removeItem = (name) => { 
     let newCart = productsCart.filter(item => item.name !== name)
@@ -47,7 +45,7 @@ function App() {
   } 
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shopping-cart">
       <NavBar cart={productsCart}></NavBar>
       <Routes>
         <Route path='/' element={<HomePage/>}></Route>
