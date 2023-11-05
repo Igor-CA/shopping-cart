@@ -45,7 +45,7 @@ function App() {
   } 
 
   return (
-    <BrowserRouter basename="/shopping-cart">
+    <BrowserRouter basename="/">
       <NavBar cart={productsCart}></NavBar>
       <Routes>
         <Route path='/' element={<HomePage/>}></Route>
